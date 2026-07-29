@@ -149,7 +149,7 @@ The constitutive equation is solved using a robust Newton–Raphson scheme:
 - **Five-Dimensional Deviatoric Basis** — reduces the 3×3 tensor problem to a 5×5 system
 - **Newton–Raphson Iteration** — linearizes the system with analytical Jacobian
 - **n-Continuation Ramp** — gradually ramps n for robust convergence at high rate sensitivity
-- **Rank-Deficient Slip System Sets** — Jacobi eigendecomposition identifies achievable subspace
+- **Rank-Deficient Slip System Sets** — Jacobi eigen decomposition identifies achievable subspace
 
 ### Orientation Integration
 
@@ -185,17 +185,6 @@ Orientation, accumulated slip, deformation gradient, and slip resistance are con
 
 - Bunge convention (φ₁, Φ, φ₂)
 - Crystal orientation: v_crystal = g · v_sample
-- Negative Miller indices written with a leading minus sign, e.g. (10-10)[1-210]
-
-### Validation
-
-| Test Case | Expected Result | Status |
-|---|---|---|
-| Randomly oriented FCC in tension | Taylor factor = 3.06 | ✅ Passed |
-| FCC tension deformation | ⟨111⟩+⟨100⟩ duplex fibre | ✅ Passed |
-| FCC compression deformation | ⟨110⟩ compression fibre | ✅ Passed |
-| HCP prismatic-dominated deformation | c-axis rotates away from tensile axis | ✅ Passed |
-| HCP compression | c-axis rotates toward compression axis | ✅ Passed |
 
 ## 📁 Texture File Format
 
