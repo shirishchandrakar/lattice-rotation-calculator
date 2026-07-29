@@ -6,8 +6,6 @@
 
 **No server, no data leaves your browser — runs entirely client-side.**
 
-![Screenshot](screenshot.png)
-
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
