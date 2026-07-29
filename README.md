@@ -1,8 +1,8 @@
 # 🔄 Lattice Rotation Calculator
 
-> Full-constraint (Taylor) rate-dependent single-crystal plasticity in your browser
+> Full-constraint (Taylor) rate-dependent crystal plasticity in your browser
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-green)](https://your-username.github.io/lattice-rotation-calculator)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-green)](https://shirishchandrakar.github.io/lattice-rotation-calculator/)
 
 **No server, no data leaves your browser — runs entirely client-side.**
 
