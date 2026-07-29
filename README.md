@@ -266,7 +266,7 @@ If you use this application in your research, teaching, or any academic work, pl
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/your-username/lattice-rotation-calculator}}
+  howpublished = {\url{https://shirishchandrakar.github.io/lattice-rotation-calculator/}}
 }
 ```
 
