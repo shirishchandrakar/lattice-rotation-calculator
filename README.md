@@ -275,7 +275,7 @@ Or simply reference the repository URL:
 ```text
 Chandrakar, S. (2026). Lattice Rotation Calculator: 
 Full-Constraint Taylor Rate-Dependent Single-Crystal Plasticity. 
-GitHub. https://github.com/your-username/lattice-rotation-calculator
+GitHub. https://shirishchandrakar.github.io/lattice-rotation-calculator/
 ```
 
 ## 👤 Author
