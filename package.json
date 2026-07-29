@@ -1,0 +1,12 @@
+{
+  "name": "lattice-rotation-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-constraint Taylor crystal plasticity calculator: slip activity, lattice rotation, pole figures and IPFs under multi-step load paths.",
+  "scripts": {
+    "build": "esbuild src/main.jsx --bundle --minify --format=iife --outfile=app.js --loader:.jsx=jsx --jsx=automatic --define:process.env.NODE_ENV='\"production\"'",
+    "dev": "esbuild src/main.jsx --bundle --format=iife --outfile=app.js --loader:.jsx=jsx --jsx=automatic --servedir=. --watch"
+  },
+  "dependencies": { "react": "^18.3.1", "react-dom": "^18.3.1" },
+  "devDependencies": { "esbuild": "^0.21.5" }
+}
