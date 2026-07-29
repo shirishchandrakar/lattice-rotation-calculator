@@ -51,7 +51,7 @@ Full-constraint Taylor is an upper bound: every grain sees the same velocity gra
 texture comes out sharper and flow stress higher than a self-consistent (VPSC) or full-field
 solution would give. There is no elasticity, no deformation twinning, no latent hardening
 between slip systems and no grain interaction. Ideal texture components are not exact fixed
-points of the full-constraint flow, which is a known limitation for rolling textures.
+points of the full-constraint flow.
 
 ## Publishing it on GitHub Pages
 
@@ -96,6 +96,3 @@ already a sample of the ODF, resampling it is unbiased while convolving with a k
 broadens the texture. The panel reports the worst fibre-fraction deviation of the reduced set
 against the full file so the cost of any choice is visible.
 
-## License
-
-MIT — see `LICENSE`.
