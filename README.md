@@ -2,7 +2,6 @@
 
 > Full-constraint (Taylor) rate-dependent single-crystal plasticity in your browser
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-green)](https://your-username.github.io/lattice-rotation-calculator)
 
 **No server, no data leaves your browser — runs entirely client-side.**
@@ -19,7 +18,8 @@
 - [Limitations](#-limitations)
 - [Development](#-development)
 - [Deploy to GitHub Pages](#-deploy-to-github-pages)
-- [License](#-license)
+- [Citation](#-citation)
+- [Author](#-author)
 
 ## 🎯 Overview
 
