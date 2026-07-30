@@ -145,8 +145,6 @@ where Dᶜ is the strain-rate tensor expressed in the crystal reference frame.
 ### Numerical Solution
 
 The constitutive equation is solved using a robust Newton–Raphson scheme:
-
-- **Five-Dimensional Deviatoric Basis** — reduces the 3×3 tensor problem to a 5×5 system
 - **Newton–Raphson Iteration** — linearizes the system with analytical Jacobian
 - **n-Continuation Ramp** — gradually ramps n for robust convergence at high rate sensitivity
 - **Rank-Deficient Slip System Sets** — Jacobi eigen decomposition identifies achievable subspace
@@ -211,7 +209,7 @@ The column positions are automatically detected, so the angles need not be the f
 
 - Files larger than the requested ensemble size are reduced by uniform random resampling
 - Optional kernel density bandwidth for smoothing (off by default — resampling is unbiased)
-- Reports worst fibre-fraction deviation of the reduced set against the full file
+
 
 ## ⚠️ Limitations
 
